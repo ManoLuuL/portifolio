@@ -1,25 +1,36 @@
+import Content from "../content";
 import { FC } from "react";
 import { LayoutProps } from "./types";
-import SidebarMenu from "../sidebar-menu";
-import TopbarMenu from "../topbar-menu";
-import Content from "../content";
+import TopBar from "../topbar-menu/topbar-menu";
+import useAppData from "@/globals/hooks/use-app-data";
 
 const Layout: FC<LayoutProps> = (props) => {
-  const { subTitle, title, children, hiddenTopbar = false } = props;
+  const { children } = props;
+
+  const { Theme } = useAppData();
 
   return (
-    <div className={`dark flex h-screen w-screen `}>
-      <SidebarMenu />
-      <div
-        className={`
-                flex flex-col w-full p-3 
-                bg-gray-300 dark:bg-gray-800
-            `}
-      >
-        {!hiddenTopbar && <TopbarMenu subTitle={subTitle} title={title} />}
+    <div
+      className={`w-screen h-screen grid ${Theme}`}
+      style={{
+        gridTemplateAreas: `'sidebar topbar topbar'
+      'content content content'
+      'content content content'
+      'content content content'`,
+        gridTemplateRows: `65px auto 1fr auto`,
+        gridTemplateColumns: "auto 1fr auto",
+      }}
+    >
+      <TopBar />
 
-        <Content>{children}</Content>
-      </div>
+      <main
+        className="overflow-x-hidden overflow-y-auto bg-surface-200 dark:bg-surface-800"
+        style={{
+          gridArea: "content",
+        }}
+      >
+        {children}
+      </main>
     </div>
   );
 };
