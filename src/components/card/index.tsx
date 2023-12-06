@@ -1,19 +1,24 @@
 import { FC } from "react";
-import Image from "next/image";
-import { ProjectCardProps } from "./types";
+import { SkillCardProps } from "./types";
 
-const ProjectCard: FC<ProjectCardProps> = (props) => {
-  const { description, imageUrl, onClick } = props;
+const SkillCard: FC<SkillCardProps> = (props) => {
+  const { skils } = props;
 
-  return (
-    <div
-      className="flex flex-col items-center justify-center project-card border-2 cursor-pointer h-50 w-80"
-      onClick={onClick}
-    >
-      <Image className="mb-2 h-auto w-70" src={imageUrl} alt={description} />
-      <p>{description}</p>
-    </div>
-  );
+  return skils.map((data, index) => {
+    const { description, icon } = data;
+    return (
+      <div
+        key={index}
+        className={`
+        relative items-center bg-gray-700 w-32 aspect-[1] p-0 flex flex-col justify-center cursor-pointer rounded-tl-xl transition duration-200 text-blue-400
+        after:block after:absolute after:w-full after:h-1 after:bottom-[-0.1rem] after:left-0 hover:scale-110 after:bg-gradient-to-r from-blue-400 to-blue-600
+        `}
+      >
+        <p>{description}</p>
+        {icon}
+      </div>
+    );
+  });
 };
 
-export default ProjectCard;
+export default SkillCard;

@@ -1,6 +1,3 @@
-import { TitleProps } from "../title/types";
-
-export type LayoutProps = TitleProps & {
+export type LayoutProps = {
   children?: any;
-  hiddenTopbar?: boolean;
 };

@@ -24,7 +24,7 @@ const Layout: FC<LayoutProps> = (props) => {
       <TopBar />
 
       <main
-        className="overflow-x-hidden overflow-y-auto bg-surface-200 dark:bg-surface-800"
+        className="overflow-x-hidden overflow-y-auto bg-gray-300 dark:bg-gray-800 dark:text-gray-200 text-gray-700 block w-full"
         style={{
           gridArea: "content",
         }}

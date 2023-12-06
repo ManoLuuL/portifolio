@@ -1,29 +1,33 @@
-import { ButtonChangeTema } from "../button-change-theme";
-import { FC } from "react";
-import { IconMenu } from "../icons";
+import { FC, useState } from "react";
+import { IconClose, IconMenu } from "../icons";
+
+import { SwitchChangeTheme } from "../switch-change-theme";
 import useAppData from "@/globals/hooks/use-app-data";
 
 const TopBar: FC = () => {
   const { Theme, changeTheme } = useAppData();
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <section
       style={{
         gridArea: "topbar",
       }}
-      className={`flex items-center justify-between gap-2 overflow-hidden w-full h-full overflow-x-auto overflow-y-auto z-[1] 
-      bg-slate-300 dark:bg-slate-700 border-b-2 border-slate-200 border-solid`}
+      className={`flex flex-wrap items-center gap-2 justify-between overflow-hidden w-full h-full overflow-x-auto overflow-y-auto z-[1]
+      bg-gray-800 border-b-2 border-blue-400 dark:border-blue-400 border-solid px-3`}
     >
       <button
-        className="text-2xl pl-8"
-        onClick={() => console.log("Abrir menu")}
+        className="text-2xl  hover:bg-blue-400 rounded-lg"
+        onClick={() => setIsOpen(!isOpen)}
       >
-        {IconMenu}
+        {!isOpen ? IconMenu : IconClose}
       </button>
 
-      <span className="text-2xl">Portifolio</span>
+      <div className="text-2xl dark:text-gray-200 text-gray-200 font-bold">
+        Teste 2
+      </div>
 
-      <ButtonChangeTema changeTheme={changeTheme} theme={Theme ?? "dark"} />
+      <SwitchChangeTheme changeTheme={changeTheme} theme={Theme ?? "dark"} />
     </section>
   );
 };

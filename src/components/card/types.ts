@@ -1,5 +1,8 @@
-export type ProjectCardProps = {
-  imageUrl: string;
+export type SkillItensProps = {
   description: string;
-  onClick(): void;
+  icon: JSX.Element;
+};
+
+export type SkillCardProps = {
+  skils: SkillItensProps[];
 };
