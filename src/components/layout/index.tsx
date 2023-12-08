@@ -1,4 +1,3 @@
-import Content from "../content";
 import { FC } from "react";
 import { LayoutProps } from "./types";
 import TopBar from "../topbar-menu/topbar-menu";
