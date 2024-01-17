@@ -14,7 +14,7 @@ import {
   IconTypeScript,
 } from "@/components/icons";
 
-import { SkillItensProps } from "@/components/card/types";
+import { SkillItensProps } from "@/components/card-skills/types";
 
 export const skillTeste: SkillItensProps[] = [
   {

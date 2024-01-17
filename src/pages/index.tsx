@@ -1,6 +1,6 @@
+import CardSkills from "@/components/card-skills/card-skills";
 import { ContactPage } from "@/components";
 import Layout from "@/components/layout";
-import SkillCard from "@/components/card";
 import { skillTeste } from "@/globals/consts";
 
 export default function Home() {
@@ -19,8 +19,8 @@ export default function Home() {
           <h2 className="font-semibold mb-14 text-gray-600 dark:text-gray-200 text-3xl">
             Habilidades
           </h2>
-          <div className="flex items-center gap-20 flex-wrap">
-            <SkillCard skils={skillTeste} />
+          <div className="flex items-center gap-20 flex-wrap justify-center">
+            <CardSkills skils={skillTeste} />
           </div>
         </div>
       </section>

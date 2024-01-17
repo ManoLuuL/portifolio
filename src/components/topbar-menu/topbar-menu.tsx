@@ -14,7 +14,7 @@ const TopBar = () => {
       <div className="grid-cols-12 grid gap-4 p-1 w-full">
         <div className="col-span-2" />
         <div className="text-2xl dark:text-gray-200 text-gray-200 font-bold col-span-8 flex items-center justify-center">
-          Portifolio
+          AAAAA
         </div>
         <div className="col-span-2 flex justify-end">
           <button
