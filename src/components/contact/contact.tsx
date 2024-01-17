@@ -1,5 +1,5 @@
 import { CardContact } from "@/components/card-contact";
-import Mail from "../assets/mail.png";
+import Mail from "../../assets/mail.png";
 
 export const ContactPage = () => {
   return (
