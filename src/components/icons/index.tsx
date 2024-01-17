@@ -3,13 +3,13 @@ export const IconMenu = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
-    stroke-width="1.5"
+    strokeWidth="1.5"
     stroke="currentColor"
     className="w-6 h-6"
   >
     <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       d="M3.75 9h16.5m-16.5 6.75h16.5"
     />
   </svg>
@@ -54,13 +54,13 @@ export const IconClose = (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
-    stroke-width="1.5"
+    strokeWidth="1.5"
     stroke="currentColor"
     className="w-6 h-6"
   >
     <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       d="M6 18L18 6M6 6l12 12"
     />
   </svg>
@@ -110,18 +110,18 @@ export const IconHMTL = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -147,18 +147,18 @@ export const IconTypeScript = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -184,18 +184,18 @@ export const IconJavaScript = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -221,18 +221,18 @@ export const IconNextJS = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -258,18 +258,18 @@ export const IconCSS = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="evenodd"
+      fillRule="evenodd"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -295,18 +295,18 @@ export const IconTailWind = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -332,18 +332,18 @@ export const IconRedux = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -409,18 +409,18 @@ export const IconMySQL = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -446,18 +446,18 @@ export const IconPostgres = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
@@ -483,18 +483,18 @@ export const IconPython = (
   >
     <g
       fill="#60a5fa"
-      fill-rule="nonzero"
+      fillRule="nonzero"
       stroke="none"
-      stroke-width="1"
-      stroke-linecap="butt"
-      stroke-linejoin="miter"
-      stroke-miterlimit="10"
-      stroke-dasharray=""
-      stroke-dashoffset="0"
-      font-family="none"
-      font-weight="none"
-      font-size="none"
-      text-anchor="none"
+      strokeWidth="1"
+      strokeLinecap="butt"
+      strokeLinejoin="miter"
+      strokeMiterlimit="10"
+      strokeDasharray=""
+      strokeDashoffset="0"
+      fontFamily="none"
+      fontWeight="none"
+      fontSize="none"
+      textAnchor="none"
       style={{
         mixBlendMode: "normal",
       }}
