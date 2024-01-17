@@ -1,9 +1,7 @@
 import { CardContact } from "@/components/card-contact";
-import { FC } from "react";
-import Image from "next/image";
 import Mail from "../assets/mail.png";
 
-export const ContatoPage: FC = () => {
+export const ContactPage = () => {
   return (
     <section className="pb-5 flex justify-center mt-10 mb-60">
       <div className="mt-12 block w-full items-center">

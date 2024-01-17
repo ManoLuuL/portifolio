@@ -1,4 +1,4 @@
-import { ContatoPage } from "./contato";
+import { ContactPage } from "@/components";
 import Layout from "@/components/layout";
 import SkillCard from "@/components/card";
 import { skillTeste } from "@/globals/consts";
@@ -31,7 +31,7 @@ export default function Home() {
           </h2>
         </div>
       </section>
-      <ContatoPage />
+      <ContactPage />
     </Layout>
   );
 }
