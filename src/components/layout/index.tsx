@@ -12,7 +12,7 @@ const Layout: FC<LayoutProps> = (props) => {
     <div
       className={`w-screen h-screen grid ${Theme}`}
       style={{
-        gridTemplateAreas: `'sidebar topbar topbar'
+        gridTemplateAreas: `'topbar topbar topbar'
       'content content content'
       'content content content'
       'content content content'`,

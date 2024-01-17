@@ -1,4 +1,3 @@
-export * from "./switch-change-theme";
 export * from "./layout";
 export * from "./icons";
 export * from "./contact";
