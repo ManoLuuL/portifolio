@@ -3,7 +3,7 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <>
-      <footer className="flex items-center h-16 px-4 border-t shrink-0 md:px-6">
+      <footer className="flex items-center h-16 px-4 border-t shrink-0 border-gray-800 dark:border-gray-50 md:px-6 transition duration-200">
         <p className="text-xs text-gray-500 dark:text-gray-400">
           © 2024 Luis Ricardo C. Couto. All rights reserved.
         </p>
