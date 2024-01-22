@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <AppProvider>
       <Head>
-        <title>Portifólio - Luis Ricardo</title>
+        <title>Luis Ricardo - Desenvolvedor Front-end</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
