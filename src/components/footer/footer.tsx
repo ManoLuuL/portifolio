@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Footer = () => {
   return (
     <>
@@ -6,15 +8,18 @@ export const Footer = () => {
           © 2024 Luis Ricardo C. Couto. All rights reserved.
         </p>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          {/* <Link className="text-xs hover:underline underline-offset-4" href="#">
-            GitHub
-          </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link
+            className="text-xs hover:underline underline-offset-4"
+            href="https://www.linkedin.com/in/luis-ricardo-coelho-couto-26ba151b4/"
+          >
             LinkedIn
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Twitter
-          </Link> */}
+          <Link
+            className="text-xs hover:underline underline-offset-4"
+            href="https://github.com/ManoLuuL"
+          >
+            GitHub
+          </Link>
         </nav>
       </footer>
     </>

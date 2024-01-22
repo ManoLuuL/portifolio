@@ -1,7 +1,7 @@
-import { ContactPage, Footer } from "@/components";
-
+import { Button } from "@/components/button";
 import { CardProjects } from "@/components/card-projects";
 import CardSkills from "@/components/card-skills/card-skills";
+import { Footer } from "@/components";
 import Image from "next/image";
 import Layout from "@/components/layout";
 import Teste from "../assets/img.jpg";
@@ -25,18 +25,24 @@ export default function Home() {
               width={200}
             />
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-              Luis Ricardo C. Couto
+              Sobre mim
             </h1>
             <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Full-stack developer with a passion for creating high-performance
-              web applications.
+              Profissional especializado em desenvolvimento web. Expert em
+              React, TypeScript, JavaScript, Tailwind e Next, com habilidades em
+              MySQL, PostgreSQL. Prático em testes com Jest e Vitest. Formado em
+              Ciênica da Computação pela Unisagrado.
             </p>
+          </div>
+          <div className="gap-2 p-1 flex justify-center items-center">
+            <Button text="Curriculo" />
+            <Button text="Contato" />
           </div>
         </div>
       </section>
 
       <section
-        className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-600 justify-center flex"
+        className="w-full py-12 md:py-24 lg:py-32 justify-center flex"
         id="skills"
       >
         <div className="container px-4 md:px-6 w-[90%]">
@@ -49,17 +55,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="pb-5 flex justify-center mt-10 mb-20">
-        <div className="flex flex-col items-center w-[90%]">
-          <h2 className="font-semibold mb-14 text-gray-600 dark:text-gray-200 text-3xl">
+      <section
+        className="w-full py-12 md:py-24 lg:py-32 justify-center flex"
+        id="projects"
+      >
+        <div className="container px-4 md:px-6 w-[90%]">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
             Projetos
           </h2>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid gap-4 grid-cols-4 mt-8">
             <CardProjects />
           </div>
         </div>
       </section>
-      <ContactPage />
+
       <Footer />
     </Layout>
   );
