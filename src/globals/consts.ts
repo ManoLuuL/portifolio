@@ -15,7 +15,9 @@ import {
 } from "@/components/icons";
 import { ProjectProps, SkillItensProps } from "@/components";
 
-import DispensaSaudavel from "../assets/Screenshot_2.png";
+import DispensaSaudavel from "../assets/despensasaudavel.png";
+import MiniRPG from "../assets/minirpg.png";
+import Task from "../assets/sistematask.png";
 
 export const SkillsDev: SkillItensProps[] = [
   {
@@ -79,5 +81,17 @@ export const Projects: ProjectProps[] = [
     icons: [IconTypeScript(30), IconPostgres(30), IconPython(30)],
     link: "https://despensa-saudavel.vercel.app/",
     situation: "Concluido - 23/11/23",
+  },
+  {
+    title: "Mini RPG 2D",
+    src: MiniRPG,
+    icons: [IconTypeScript(30), IconReact(30)],
+    situation: "Desenvolvimento",
+  },
+  {
+    title: "Sistema de Task",
+    src: Task,
+    icons: [IconJavaScript(30), IconReact(30)],
+    situation: "Concluido - 17/04/22",
   },
 ];
