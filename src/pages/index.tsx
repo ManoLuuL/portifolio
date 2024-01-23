@@ -2,10 +2,14 @@ import { Button, CardProjects, CardSkills, Footer, Layout } from "@/components";
 import { Projects, SkillsDev } from "@/globals";
 
 import Image from "next/image";
+import { Modal } from "@/components/modal/modal";
 import Teste from "../assets/img.jpg";
 import { twMerge } from "tailwind-merge";
+import { useState } from "react";
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <Layout>
       <section className={twMerge("pb-5 flex justify-center mt-10 mb-20")}>
@@ -35,7 +39,7 @@ export default function Home() {
               )}
             >
               Profissional especializado em desenvolvimento Front-End Web. No
-              mercado há 3 anos, familiarizado com React, TypeScript,
+              mercado há mais de 3 anos, familiarizado com React, TypeScript,
               JavaScript, Tailwind e Next, com habilidades em MySQL, PostgreSQL.
               Prático em testes com Jest e Vitest. Bacharelado em Ciênica da
               Computação pela Unisagrado.
@@ -57,7 +61,7 @@ export default function Home() {
                 document.body.removeChild(link);
               }}
             />
-            <Button text="Contatos" onClick={() => undefined} />
+            <Button text="Contatos" onClick={() => setIsOpen(true)} />
           </div>
         </div>
       </section>
@@ -107,6 +111,27 @@ export default function Home() {
       </section>
 
       <Footer />
+      {isOpen && (
+        <Modal onClose={() => setIsOpen(false)}>
+          <div className="flex justify-center">
+            <Button
+              text="Linkedin"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/luis-ricardo-coelho-couto-26ba151b4/",
+                  "_blank"
+                )
+              }
+            />
+            <Button
+              text="Github"
+              onClick={() =>
+                window.open("https://github.com/ManoLuuL", "_blank")
+              }
+            />
+          </div>
+        </Modal>
+      )}
     </Layout>
   );
 }
