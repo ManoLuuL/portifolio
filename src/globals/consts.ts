@@ -13,60 +13,71 @@ import {
   IconTailWind,
   IconTypeScript,
 } from "@/components/icons";
+import { ProjectProps, SkillItensProps } from "@/components";
 
-import { SkillItensProps } from "@/components/card-skills/types";
+import DispensaSaudavel from "../assets/Screenshot_2.png";
 
-export const skillTeste: SkillItensProps[] = [
+export const SkillsDev: SkillItensProps[] = [
   {
     description: "HTML5",
-    icon: IconHMTL,
+    icon: IconHMTL(),
   },
   {
     description: "React.js",
-    icon: IconReact,
+    icon: IconReact(),
   },
   {
     description: "TypeScript",
-    icon: IconTypeScript,
+    icon: IconTypeScript(),
   },
   {
     description: "JavaScript",
-    icon: IconJavaScript,
+    icon: IconJavaScript(),
   },
   {
     description: "Next.js",
-    icon: IconNextJS,
+    icon: IconNextJS(),
   },
   {
     description: "CSS",
-    icon: IconCSS,
+    icon: IconCSS(),
   },
   {
     description: "Tailwind CSS",
-    icon: IconTailWind,
+    icon: IconTailWind(),
   },
   {
     description: "Redux",
-    icon: IconRedux,
+    icon: IconRedux(),
   },
   {
     description: "React Query",
-    icon: IconReactQuery,
+    icon: IconReactQuery(),
   },
   {
     description: "React Testing",
-    icon: IconReactTestingLibrary,
+    icon: IconReactTestingLibrary(),
   },
   {
     description: "MySQL",
-    icon: IconMySQL,
+    icon: IconMySQL(),
   },
   {
     description: "Postgres",
-    icon: IconPostgres,
+    icon: IconPostgres(),
   },
   {
     description: "Python",
-    icon: IconPython,
+    icon: IconPython(),
+  },
+];
+
+export const Projects: ProjectProps[] = [
+  {
+    title: "Dispensa Saudavel",
+    src: DispensaSaudavel,
+    icons: [IconTypeScript(30), IconPostgres(30), IconPython(30)],
+    link: "https://despensa-saudavel.vercel.app/",
+    situation: "Concluido - 23/11/23",
   },
 ];

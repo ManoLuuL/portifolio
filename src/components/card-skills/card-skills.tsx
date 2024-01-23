@@ -1,6 +1,6 @@
 import { SkillCardProps } from "./types";
 
-const CardSkills = (props: SkillCardProps) => {
+export const CardSkills = (props: SkillCardProps) => {
   const { skils } = props;
 
   return skils.map((data, index) => {
@@ -17,5 +17,3 @@ const CardSkills = (props: SkillCardProps) => {
     );
   });
 };
-
-export default CardSkills;

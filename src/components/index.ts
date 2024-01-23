@@ -5,3 +5,4 @@ export * from "./topbar-menu";
 export * from "./title";
 export * from "./card-projects";
 export * from "./footer";
+export * from "./button";

@@ -1,9 +1,8 @@
-import { FC } from "react";
 import { LayoutProps } from "./types";
 import TopBar from "../topbar-menu/topbar-menu";
 import useAppData from "@/globals/hooks/use-app-data";
 
-const Layout: FC<LayoutProps> = (props) => {
+export const Layout = (props: LayoutProps) => {
   const { children } = props;
 
   const { Theme } = useAppData();
@@ -33,5 +32,3 @@ const Layout: FC<LayoutProps> = (props) => {
     </div>
   );
 };
-
-export default Layout;

@@ -66,13 +66,13 @@ export const IconClose = (
   </svg>
 );
 
-export const IconReact = (
+export const IconReact = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0 0 80 80"
   >
     <path
@@ -96,13 +96,13 @@ export const IconReact = (
   </svg>
 );
 
-export const IconHMTL = (
+export const IconHMTL = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -133,13 +133,13 @@ export const IconHMTL = (
   </svg>
 );
 
-export const IconTypeScript = (
+export const IconTypeScript = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -170,13 +170,13 @@ export const IconTypeScript = (
   </svg>
 );
 
-export const IconJavaScript = (
+export const IconJavaScript = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -207,13 +207,13 @@ export const IconJavaScript = (
   </svg>
 );
 
-export const IconNextJS = (
+export const IconNextJS = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -244,13 +244,13 @@ export const IconNextJS = (
   </svg>
 );
 
-export const IconCSS = (
+export const IconCSS = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -281,13 +281,13 @@ export const IconCSS = (
   </svg>
 );
 
-export const IconTailWind = (
+export const IconTailWind = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -318,13 +318,13 @@ export const IconTailWind = (
   </svg>
 );
 
-export const IconRedux = (
+export const IconRedux = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -355,15 +355,15 @@ export const IconRedux = (
   </svg>
 );
 
-export const IconReactQuery = (
+export const IconReactQuery = (size = 80) => (
   <svg
     style={{
       fill: "#000000",
     }}
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     role="img"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -375,15 +375,15 @@ export const IconReactQuery = (
   </svg>
 );
 
-export const IconReactTestingLibrary = (
+export const IconReactTestingLibrary = (size = 80) => (
   <svg
     style={{
       fill: "#000000",
     }}
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     role="img"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -395,13 +395,13 @@ export const IconReactTestingLibrary = (
   </svg>
 );
 
-export const IconMySQL = (
+export const IconMySQL = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -432,13 +432,13 @@ export const IconMySQL = (
   </svg>
 );
 
-export const IconPostgres = (
+export const IconPostgres = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
@@ -469,13 +469,13 @@ export const IconPostgres = (
   </svg>
 );
 
-export const IconPython = (
+export const IconPython = (size = 80) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="80"
-    height="80"
+    width={size}
+    height={size}
     viewBox="0,0,256,256"
     style={{
       fill: "#000000",
