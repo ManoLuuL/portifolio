@@ -18,6 +18,7 @@ import { ProjectProps, SkillItensProps } from "@/components";
 import DispensaSaudavel from "../assets/despensasaudavel.png";
 import MiniRPG from "../assets/minirpg.png";
 import Task from "../assets/sistematask.png";
+import TemplateADM from "../assets/templateadm.png";
 
 export const SkillsDev: SkillItensProps[] = [
   {
@@ -89,9 +90,15 @@ export const Projects: ProjectProps[] = [
     situation: "Desenvolvimento",
   },
   {
-    title: "Sistema de Task",
+    title: "Sistema de Tarefas",
     src: Task,
     icons: [IconJavaScript(30), IconReact(30)],
     situation: "Concluido - 17/04/22",
+  },
+  {
+    title: "Template ERP",
+    src: TemplateADM,
+    icons: [IconTypeScript(30), IconReact(30), IconNextJS(30)],
+    situation: "Concluido - 02/11/23",
   },
 ];
