@@ -1,3 +1,5 @@
+import { IconGitHub, IconLinkedIn } from "..";
+
 import { twMerge } from "tailwind-merge";
 import useAppData from "@/globals/hooks/use-app-data";
 
@@ -20,8 +22,25 @@ const TopBar = () => {
             "text-2xl dark:text-gray-200 text-gray-700 font-bold col-span-8 flex items-center justify-start"
           )}
         >
-          Luis Ricardo C. Couto
+          <div
+            className="cursor-pointer mx-2"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/luis-ricardo-coelho-couto-26ba151b4/",
+                "_blank"
+              )
+            }
+          >
+            {IconLinkedIn(30)}
+          </div>
+          <div
+            className="cursor-pointer mx-2"
+            onClick={() => window.open("https://github.com/ManoLuuL", "_blank")}
+          >
+            {IconGitHub(30)}
+          </div>
         </div>
+
         <div className={twMerge("col-span-2")} />
         <div className={twMerge("col-span-2 flex justify-end")}>
           <button
