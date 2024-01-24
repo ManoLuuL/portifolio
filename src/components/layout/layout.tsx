@@ -1,5 +1,6 @@
 import { LayoutProps } from "./types";
 import TopBar from "../topbar-menu/topbar-menu";
+import { twMerge } from "tailwind-merge";
 import useAppData from "@/globals/hooks/use-app-data";
 
 export const Layout = (props: LayoutProps) => {
@@ -22,7 +23,9 @@ export const Layout = (props: LayoutProps) => {
       <TopBar />
 
       <main
-        className="overflow-x-hidden overflow-y-auto bg-gray-200 dark:bg-gray-800 dark:text-gray-200 text-gray-700 block w-full"
+        className={twMerge(
+          "overflow-x-hidden overflow-y-auto bg-gray-200 dark:bg-gray-800 dark:text-gray-200 text-gray-700 block w-full"
+        )}
         style={{
           gridArea: "content",
         }}

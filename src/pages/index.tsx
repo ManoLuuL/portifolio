@@ -1,4 +1,11 @@
-import { Button, CardProjects, CardSkills, Footer, Layout } from "@/components";
+import {
+  Button,
+  CardProjects,
+  CardSkills,
+  Footer,
+  Layout,
+  ModalContact,
+} from "@/components";
 import { Projects, SkillsDev } from "@/globals";
 
 import Image from "next/image";
@@ -9,6 +16,20 @@ import { useState } from "react";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleProfile = () => {
+    const profile = "/assets/Profile.pdf";
+    const link = document.createElement("a");
+    link.href = profile;
+    link.download = "Currículo";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const handleContact = () => setIsOpen(true);
+  const handleClose = () => setIsOpen(false);
 
   return (
     <Layout>
@@ -48,20 +69,8 @@ export default function Home() {
           <div
             className={twMerge("gap-2 p-1 flex justify-center items-center")}
           >
-            <Button
-              text="Download CV"
-              onClick={() => {
-                const profile = "/assets/Profile.pdf";
-                const link = document.createElement("a");
-                link.href = profile;
-                link.download = "Currículo";
-
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-              }}
-            />
-            <Button text="Contatos" onClick={() => setIsOpen(true)} />
+            <Button text="Download CV" onClick={handleProfile} />
+            <Button text="Contatos" onClick={handleContact} />
           </div>
         </div>
       </section>
@@ -78,7 +87,7 @@ export default function Home() {
               "text-3xl font-bold tracking-tighter sm:text-5xl"
             )}
           >
-            Skills
+            Habilidades
           </h2>
           <div
             className={twMerge(
@@ -111,27 +120,7 @@ export default function Home() {
       </section>
 
       <Footer />
-      {isOpen && (
-        <Modal onClose={() => setIsOpen(false)}>
-          <div className="flex justify-center">
-            <Button
-              text="Linkedin"
-              onClick={() =>
-                window.open(
-                  "https://www.linkedin.com/in/luis-ricardo-coelho-couto-26ba151b4/",
-                  "_blank"
-                )
-              }
-            />
-            <Button
-              text="Github"
-              onClick={() =>
-                window.open("https://github.com/ManoLuuL", "_blank")
-              }
-            />
-          </div>
-        </Modal>
-      )}
+      {isOpen && <ModalContact onClose={handleClose} />}
     </Layout>
   );
 }

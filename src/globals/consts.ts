@@ -1,5 +1,13 @@
 import {
+  DespensaSaudavel,
+  MiniRPG,
+  SistemaTask,
+  TemplateADM,
+  TriagemVirtual,
+} from "../assets";
+import {
   IconCSS,
+  IconCSharp,
   IconHMTL,
   IconJavaScript,
   IconMySQL,
@@ -14,11 +22,6 @@ import {
   IconTypeScript,
 } from "@/components/icons";
 import { ProjectProps, SkillItensProps } from "@/components";
-
-import DispensaSaudavel from "../assets/despensasaudavel.png";
-import MiniRPG from "../assets/minirpg.png";
-import Task from "../assets/sistematask.png";
-import TemplateADM from "../assets/templateadm.png";
 
 export const SkillsDev: SkillItensProps[] = [
   {
@@ -78,7 +81,7 @@ export const SkillsDev: SkillItensProps[] = [
 export const Projects: ProjectProps[] = [
   {
     title: "Dispensa Saudavel",
-    src: DispensaSaudavel,
+    src: DespensaSaudavel,
     icons: [IconTypeScript(30), IconPostgres(30), IconPython(30)],
     link: "https://despensa-saudavel.vercel.app/",
     situation: "Concluido - 23/11/23",
@@ -92,7 +95,7 @@ export const Projects: ProjectProps[] = [
   },
   {
     title: "Sistema de Tarefas",
-    src: Task,
+    src: SistemaTask,
     icons: [IconJavaScript(30), IconReact(30)],
     link: "https://github.com/ManoLuuL/SistemaDeTask",
     situation: "Concluido - 17/04/22",
@@ -103,5 +106,12 @@ export const Projects: ProjectProps[] = [
     icons: [IconTypeScript(30), IconReact(30), IconNextJS(30)],
     situation: "Concluido - 02/11/23",
     link: "https://github.com/ManoLuuL/template-admin",
+  },
+  {
+    title: "Triagem Virtual",
+    src: TriagemVirtual,
+    icons: [IconCSharp(30)],
+    situation: "Concluido - 04/11/21",
+    link: "https://github.com/ManoLuuL/Triagem_Virtual",
   },
 ];
