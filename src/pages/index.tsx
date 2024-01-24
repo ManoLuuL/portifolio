@@ -40,9 +40,11 @@ export default function Home() {
                 "text-5xl font-bold text-blue-400 dark:text-blue-500"
               )}
             >
-              Olá, eu sou o
+              Bem-Vindo,
             </h2>
-            <h1 className={twMerge("text-6xl font-bold")}>Luis Ricardo</h1>
+            <h1 className={twMerge("text-4xl font-bold")}>
+              Eu sou o Luis Ricardo
+            </h1>
             <p className={twMerge("text-2xl mt-4 mb-8")}>
               Desenvolvedor Front-End
             </p>
