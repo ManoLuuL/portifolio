@@ -22,8 +22,9 @@ export const CardProjects = (props: CardProjectsProps) => {
           >
             <Image
               alt={title}
-              className={twMerge("rounded-lg mb-2 object-cover mt-1")}
-              height="200"
+              className={twMerge(
+                "rounded-lg mb-2 object-cover mt-1 w-full h-full"
+              )}
               src={src}
             />
             <div

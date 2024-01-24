@@ -113,7 +113,7 @@ export default function Home() {
           >
             Projetos
           </h2>
-          <div className={twMerge("grid gap-4 grid-cols-4 mt-8")}>
+          <div className={twMerge("grid gap-4 grid-cols-3 mt-8")}>
             <CardProjects projects={Projects} />
           </div>
         </div>
