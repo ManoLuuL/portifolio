@@ -1,6 +1,7 @@
 import {
   DespensaSaudavel,
   MiniRPG,
+  ShopOnline,
   SistemaTask,
   TemplateADM,
   TriagemVirtual,
@@ -51,5 +52,12 @@ export const Projects: ProjectProps[] = [
     icons: [IconCSharp(30)],
     situation: "Concluido - 04/11/21",
     link: "https://github.com/ManoLuuL/Triagem_Virtual",
+  },
+  {
+    title: "Shop Online",
+    src: ShopOnline,
+    icons: [IconTypeScript(30), IconReact(30)],
+    situation: "Em Desenvolvimento",
+    link: "https://github.com/ManoLuuL/shop-online",
   },
 ];
