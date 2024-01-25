@@ -48,13 +48,13 @@ body {
   background-color: rgb(76, 145, 230);
 }
 
-.js-section {
+.sections {
   opacity: 0;
   transition: 0.5s;
-  transform: translateY(-10rem);
+  transform: translateY(-7rem);
 }
 
-.js-section.active {
+.sections.animation {
   transform: translateX(0);
   opacity: 1;
 }

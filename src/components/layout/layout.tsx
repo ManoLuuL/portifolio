@@ -10,7 +10,7 @@ export const Layout = (props: LayoutProps) => {
 
   const { Theme } = useAppData();
   const scrollAnimation = useCallback(() => {
-    const sections = document.querySelectorAll(".js-section");
+    const sections = document.querySelectorAll(".sections");
 
     const windowHalfSize = window.innerHeight * 0.6;
 
@@ -21,9 +21,9 @@ export const Layout = (props: LayoutProps) => {
         const isSectionVisible = sectionTop - windowHalfSize < 0;
 
         if (isSectionVisible) {
-          item.classList.add("active");
+          item.classList.add("animation");
         } else {
-          item.classList.remove("active");
+          item.classList.remove("animation");
         }
       });
     };

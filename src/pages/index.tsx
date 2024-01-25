@@ -37,13 +37,13 @@ export default function Home() {
           <div>
             <h2
               className={twMerge(
-                "text-5xl font-bold text-blue-400 dark:text-blue-500"
+                "text-3xl font-bold text-blue-400 dark:text-blue-500"
               )}
             >
               Bem-Vindo,
             </h2>
             <h1 className={twMerge("text-4xl font-bold")}>
-              Eu sou o Luis Ricardo
+              Eu sou Luis Ricardo
             </h1>
             <p className={twMerge("text-2xl mt-4 mb-8")}>
               Desenvolvedor Front-End
@@ -100,7 +100,7 @@ export default function Home() {
       </section>
 
       <section
-        className={twMerge("px-20 py-10 mt-10 mb-20 js-section")}
+        className={twMerge("px-20 py-10 mt-10 mb-20 sections")}
         id="skills"
       >
         <div className={twMerge("w-full")}>
@@ -118,7 +118,7 @@ export default function Home() {
       </section>
 
       <section
-        className={twMerge("px-20 py-10 mt-10 mb-20 js-section")}
+        className={twMerge("px-20 py-10 mt-10 mb-20 sections")}
         id="projects"
       >
         <div className={twMerge("w-full")}>

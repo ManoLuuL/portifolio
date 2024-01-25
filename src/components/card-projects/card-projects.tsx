@@ -22,7 +22,7 @@ export const CardProjects = (props: CardProjectsProps) => {
           <Image
             alt={title}
             className={twMerge(
-              "rounded-lg mb-2 object-cover mt-1 w-full h-full"
+              "rounded-lg mb-4 object-cover mt-4 w-full h-full"
             )}
             src={src}
           />
@@ -33,8 +33,10 @@ export const CardProjects = (props: CardProjectsProps) => {
               "group-hover:opacity-100 transition-opacity duration-200"
             )}
           >
-            <span className={twMerge("text-gray-100")}>{situation}</span>
-            <div>
+            <span className={twMerge("text-gray-100 font-bold")}>
+              {situation}
+            </span>
+            <div className={twMerge("mt-2")}>
               <Button
                 text="Ver mais"
                 small={true}

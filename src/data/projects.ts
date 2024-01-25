@@ -22,13 +22,13 @@ export const Projects: ProjectProps[] = [
     src: DespensaSaudavel,
     icons: [IconTypeScript(30), IconPostgres(30), IconPython(30)],
     link: "https://despensa-saudavel.vercel.app/",
-    situation: "Concluido - 23/11/23",
+    situation: "Concluido - 05/12/23",
   },
   {
     title: "Mini RPG 2D",
     src: MiniRPG,
     icons: [IconTypeScript(30), IconReact(30)],
-    situation: "Desenvolvimento",
+    situation: "Em desenvolvimento",
     link: "https://github.com/ManoLuuL/MiniRpg2D",
   },
   {
@@ -36,13 +36,13 @@ export const Projects: ProjectProps[] = [
     src: SistemaTask,
     icons: [IconJavaScript(30), IconReact(30)],
     link: "https://github.com/ManoLuuL/SistemaDeTask",
-    situation: "Concluido - 17/04/22",
+    situation: "Concluido - 15/10/22",
   },
   {
     title: "Template ERP",
     src: TemplateADM,
     icons: [IconTypeScript(30), IconReact(30), IconNextJS(30)],
-    situation: "Concluido - 02/11/23",
+    situation: "Concluido - 06/10/23",
     link: "https://github.com/ManoLuuL/template-admin",
   },
   {
