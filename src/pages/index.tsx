@@ -9,7 +9,7 @@ import {
 import { Projects, SkillsDev } from "@/data";
 
 import Image from "next/image";
-import Teste from "../assets/img.jpg";
+import { Profile } from "@/assets";
 import { twMerge } from "tailwind-merge";
 import { useState } from "react";
 
@@ -50,7 +50,6 @@ export default function Home() {
             </p>
             <div className={twMerge("flex space-x-4")}>
               <Button text="Download CV" onClick={handleProfile} />
-              {/* <Button text="Meus Contatos" onClick={handleContact} /> */}
             </div>
           </div>
           <div className={twMerge("relative")}>
@@ -72,7 +71,7 @@ export default function Home() {
               <Image
                 alt="Developer"
                 className={twMerge("rounded-full aspect-square object-cover")}
-                src={Teste}
+                src={Profile}
               />
             </div>
           </div>
