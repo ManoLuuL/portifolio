@@ -1,3 +1,4 @@
+import CarShowCase from "./carshowcase.jpg";
 import DespensaSaudavel from "./despensasaudavel.png";
 import MiniRPG from "./minirpg.png";
 import Profile from "./profile.jpeg";
@@ -14,4 +15,5 @@ export {
   TriagemVirtual,
   ShopOnline,
   Profile,
+  CarShowCase,
 };

@@ -1,4 +1,5 @@
 import {
+  CarShowCase,
   DespensaSaudavel,
   MiniRPG,
   ShopOnline,
@@ -59,5 +60,12 @@ export const Projects: ProjectProps[] = [
     icons: [IconTypeScript(30), IconReact(30)],
     situation: "Em Desenvolvimento",
     link: "https://github.com/ManoLuuL/shop-online",
+  },
+  {
+    title: "Car ShowCase",
+    src: CarShowCase,
+    icons: [IconTypeScript(30), IconNextJS(30)],
+    situation: "Concluido - 29/01/24",
+    link: "https://github.com/ManoLuuL/car_showcase",
   },
 ];
