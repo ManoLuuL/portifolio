@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "../button";
 import { CardProjectsProps } from "./types";
 import Image from "next/image";
@@ -39,7 +41,6 @@ export const CardProjects = (props: CardProjectsProps) => {
             <div className={twMerge("mt-2")}>
               <Button
                 text="Ver mais"
-                small={true}
                 onClick={() => {
                   window.open(link, "_blank");
                 }}

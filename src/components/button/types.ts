@@ -1,5 +1,8 @@
+import { ReactNode } from "react";
+
 export type ButtonProps = {
   text: string;
-  small?: boolean;
+  className?: string;
   onClick(): void;
+  icon?: ReactNode;
 };

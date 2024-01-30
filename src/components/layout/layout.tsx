@@ -1,5 +1,6 @@
 import { useCallback, useEffect } from "react";
 
+import { Footer } from "..";
 import { LayoutProps } from "./types";
 import TopBar from "../topbar-menu/topbar-menu";
 import { twMerge } from "tailwind-merge";
@@ -41,25 +42,10 @@ export const Layout = (props: LayoutProps) => {
   }, [scrollAnimation]);
 
   return (
-    <div
-      className={`w-screen h-screen grid ${Theme}`}
-      style={{
-        gridTemplateAreas: `'topbar'
-      'content'`,
-        gridTemplateRows: `65px auto 1fr auto`,
-        gridTemplateColumns: "auto 1fr auto",
-      }}
-    >
+    <div className={twMerge("w-screen h-screen flex flex-col", Theme)}>
       <TopBar />
 
-      <main
-        className={twMerge(
-          "overflow-x-hidden overflow-y-auto bg-gray-200 dark:bg-gray-800 dark:text-gray-200 text-gray-700 block w-full h-full"
-        )}
-        style={{
-          gridArea: "content",
-        }}
-      >
+      <main className="overflow-x-hidden overflow-y-auto bg-gray-200 dark:bg-gray-800 dark:text-gray-200 text-gray-700 block w-full h-full">
         {children}
       </main>
     </div>
