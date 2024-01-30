@@ -5,13 +5,8 @@ import { Projects, SkillsDev } from "@/data";
 
 import { Hero } from "@/components/hero/hero";
 import { twMerge } from "tailwind-merge";
-import { useState } from "react";
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClose = () => setIsOpen(false);
-
   return (
     <Layout>
       <Hero />
