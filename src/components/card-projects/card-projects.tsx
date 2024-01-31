@@ -11,7 +11,7 @@ export const CardProjects = (props: CardProjectsProps) => {
   return projects.map((project, index) => {
     const { icons, src, title, situation, link } = project;
     return (
-      <div className={twMerge("relative m-2")} key={`${title}-${index}`}>
+      <div className={twMerge("relative m-2 ")} key={`${title}-${index}`}>
         <h3 className={twMerge("text-xl font-bold")}>{title}</h3>
         <div
           className={twMerge(
@@ -24,7 +24,7 @@ export const CardProjects = (props: CardProjectsProps) => {
           <Image
             alt={title}
             className={twMerge(
-              "rounded-lg mb-4 object-cover mt-4 w-full h-full"
+              "rounded-lg mb-4 object-cover mt-4 w-full h-full border border-blue-600 dark:border-blue-500"
             )}
             src={src}
           />

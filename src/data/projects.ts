@@ -18,7 +18,7 @@ import {
   ProjectProps,
 } from "@/components";
 
-export const Projects: ProjectProps[] = [
+export const MY_PROJECTS: ProjectProps[] = [
   {
     title: "Dispensa Saudavel",
     src: DespensaSaudavel,
