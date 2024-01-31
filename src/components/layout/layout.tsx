@@ -1,18 +1,16 @@
+"use client";
+
 import { useCallback, useEffect } from "react";
 
-import { Footer } from "..";
 import { LayoutProps } from "./types";
 import TopBar from "../topbar-menu/topbar-menu";
 import { twMerge } from "tailwind-merge";
-import useAppData from "@/globals/hooks/use-app-data";
 
 export const Layout = (props: LayoutProps) => {
   const { children } = props;
 
-  const { Theme } = useAppData();
   const scrollAnimation = useCallback(() => {
     const sections = document.querySelectorAll(".sections");
-
     const windowHalfSize = window.innerHeight * 0.6;
 
     const animateScroll = () => {
@@ -42,7 +40,7 @@ export const Layout = (props: LayoutProps) => {
   }, [scrollAnimation]);
 
   return (
-    <div className={twMerge("w-screen h-screen flex flex-col", Theme)}>
+    <div className={twMerge("w-screen h-screen flex flex-col")}>
       <TopBar />
 
       <main className="overflow-x-hidden overflow-y-auto bg-gray-200 dark:bg-gray-800 dark:text-gray-200 text-gray-700 block w-full h-full">

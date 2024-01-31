@@ -1,20 +1,16 @@
 "use client";
 
-import { CardProjects, CardSkills, Footer, Layout } from "@/components";
+import { About, CardProjects, CardSkills, Footer, Hero } from "@/components";
 import { Projects, SkillsDev } from "@/data";
 
-import { Hero } from "@/components/hero/hero";
 import { twMerge } from "tailwind-merge";
 
 export default function Home() {
   return (
-    <Layout>
+    <main>
       <Hero />
-
-      <section
-        className={twMerge("px-20 py-10 mt-16 mb-20 sections")}
-        id="skills"
-      >
+      <About />
+      <section className={twMerge("px-20 py-10 mt-16 mb-20 ")} id="skills">
         <div className={twMerge("w-full")}>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
             Habilidades
@@ -29,10 +25,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        className={twMerge("px-20 py-10 mt-10 mb-20 sections")}
-        id="projects"
-      >
+      <section className={twMerge("px-20 py-10 mt-10 mb-20 ")} id="projects">
         <div className={twMerge("w-full")}>
           <h2
             className={twMerge(
@@ -52,6 +45,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </Layout>
+    </main>
   );
 }
