@@ -9,10 +9,7 @@ export const ThemeToggler = () => {
   return (
     <button
       className={twMerge(
-        "whitespace-nowrap rounded-md text-sm font-medium ring-offset-background",
-        "transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-        "disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-10 px-4 py-2",
-        "focus-visible:ring-offset-2 bg-gray-300 dark:bg-gray-800 hover:bg-gray-500 dark:hover:bg-gray-500"
+        "rounded-full bg-gray-300 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-500 h-10 px-2 py-2"
       )}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >

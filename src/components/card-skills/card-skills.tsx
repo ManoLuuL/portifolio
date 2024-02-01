@@ -10,7 +10,7 @@ export const CardSkills = (props: SkillCardProps) => {
       <div
         key={index}
         className={twMerge(
-          "relative items-center bg-gray-300 dark:bg-gray-700 w-32 aspect-[1] p-0 flex flex-col",
+          "relative items-center bg-gray-100 dark:bg-gray-700 w-32 aspect-[1] p-0 flex flex-col",
           "justify-center rounded-xl transition duration-200 dark:text-blue-400 text-blue-500 hover:scale-110"
         )}
       >

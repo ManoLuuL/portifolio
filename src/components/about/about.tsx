@@ -96,7 +96,7 @@ export const About = () => {
                       <div className="text-blue-500">
                         Habilidade Linguística
                       </div>
-                      <div className="border-b border-border"></div>
+                      <div className="border-b border-gray-500"></div>
                       <div>Inglês, Português</div>
                     </div>
                   </div>
@@ -124,7 +124,7 @@ export const About = () => {
                                   key={index}
                                   className="flex gap-x-9 group "
                                 >
-                                  <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                  <div className="h-[84px] w-[1px] bg-gray-300 relative ml-2">
                                     <div className="w-[11px] h-[11px] rounded-full bg-blue-500 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500" />
                                   </div>
                                   <div>
@@ -163,7 +163,7 @@ export const About = () => {
                                   key={index}
                                   className="flex gap-x-9 group "
                                 >
-                                  <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                  <div className="h-[84px] w-[1px] bg-gray-300 relative ml-2">
                                     <div className="w-[11px] h-[11px] rounded-full bg-blue-500 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500" />
                                   </div>
                                   <div>
@@ -219,7 +219,7 @@ export const About = () => {
                                     )
                                   }
                                 >
-                                  <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                  <div className="h-[84px] w-[1px] bg-gray-300 relative ml-2">
                                     <div className="w-[11px] h-[11px] rounded-full bg-blue-500 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500" />
                                   </div>
                                   <div>

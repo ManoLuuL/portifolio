@@ -1,5 +1,6 @@
 import CarShowCase from "./carshowcase.jpg";
 import DespensaSaudavel from "./despensasaudavel.png";
+import LogoMenu from "./logo.png";
 import MiniRPG from "./minirpg.png";
 import Profile from "./profile.jpeg";
 import ShopOnline from "./shoponline.jpg";
@@ -16,4 +17,5 @@ export {
   ShopOnline,
   Profile,
   CarShowCase,
+  LogoMenu,
 };

@@ -27,7 +27,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="py-12 xl:py-24 h-[86vh] xl:pt-28">
+    <section className="py-12 xl:py-24 h-screen xl:pt-28">
       <div className="px-20 py-10 mx-auto w-full">
         <div className="flex justify-between gap-x-8">
           <div className="flex  flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
@@ -46,7 +46,7 @@ export const Hero = () => {
               e o constante aprimoramento.
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-6">
-              <Link href={"/contact"}>
+              <Link href={"mailto:ticocouto_14@hotmail.com"}>
                 <Button
                   text="Contato"
                   className="gap-x-2"
