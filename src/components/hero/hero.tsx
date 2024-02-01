@@ -50,7 +50,7 @@ export const Hero = () => {
               <Link href={"mailto:ticocouto_14@hotmail.com"}>
                 <Button
                   text="Contato"
-                  className="gap-x-2"
+                  className="gap-x-2 text-xl h-14"
                   onClick={() => undefined}
                   icon={<RiSendPlaneFill />}
                 />
@@ -58,13 +58,13 @@ export const Hero = () => {
               <Button
                 text="Download CV"
                 onClick={handleProfile}
-                className="gap-x-2"
+                className="gap-x-2 text-xl h-14"
                 icon={<RiDownload2Fill />}
               />
             </div>
             <Socials
               containerClassName="flex gap-x-2 mx-auto xl:mx-0"
-              iconClasseName="text-[22px] hover:text-gray-200 transition-all bg-gray-100 dark:bg-gray-800 rounded-full h-10 w-10 flex items-center justify-center hover:dark:bg-gray-700 hover:bg-gray-200"
+              iconClasseName="text-[22px] hover:text-gray-200 transition-all bg-gray-100 dark:bg-gray-800 rounded-full h-12 w-12 flex items-center justify-center hover:dark:bg-gray-700 hover:bg-gray-200"
             />
           </div>
           <div className={twMerge("relative hidden xl:flex")}>
