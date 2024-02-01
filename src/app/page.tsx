@@ -1,6 +1,6 @@
 "use client";
 
-import { About, Cta, Footer, Hero, Projects, Skills } from "@/components";
+import { About, Footer, Hero, Projects, Skills } from "@/components";
 
 export default function Home() {
   return (
@@ -10,7 +10,6 @@ export default function Home() {
       <Skills />
 
       <Projects />
-      <Cta />
 
       <Footer />
     </main>
