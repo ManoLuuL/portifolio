@@ -1,6 +1,6 @@
 "use client";
 
-import { Logo, ThemeToggler } from "./components";
+import { Logo, Nav, ThemeToggler } from "./components";
 
 import { twMerge } from "tailwind-merge";
 
@@ -13,6 +13,7 @@ const TopBar = () => {
       )}
     >
       <Logo />
+      <Nav />
       <ThemeToggler />
     </div>
   );
