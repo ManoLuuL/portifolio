@@ -11,6 +11,7 @@ import {
 import { Button } from "../button";
 import Image from "next/image";
 import Link from "next/link";
+import { Link as LinkScroll } from "react-scroll";
 import { Profile } from "@/assets";
 import { twMerge } from "tailwind-merge";
 
@@ -27,7 +28,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="py-12 xl:py-24 h-screen xl:pt-28">
+    <section className="py-12 xl:py-24 h-screen xl:pt-28" id="main">
       <div className="px-20 py-10 mx-auto w-full">
         <div className="flex justify-between gap-x-8">
           <div className="flex  flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
@@ -62,8 +63,8 @@ export const Hero = () => {
               />
             </div>
             <Socials
-              containerClassName="flex gap-x-6 mx-auto xl:mx-0"
-              iconClasseName="text-[22px] hover:text-gray-200 transition-all"
+              containerClassName="flex gap-x-2 mx-auto xl:mx-0"
+              iconClasseName="text-[22px] hover:text-gray-200 transition-all bg-gray-100 dark:bg-gray-800 rounded-full h-10 w-10 flex items-center justify-center hover:dark:bg-gray-700 hover:bg-gray-200"
             />
           </div>
           <div className={twMerge("relative hidden xl:flex")}>
@@ -98,8 +99,10 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
-          <RiArrowDownSLine className="text-3xl text-gray-400" />
+        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce cursor-pointer">
+          <LinkScroll to="about" smooth={true} duration={500}>
+            <RiArrowDownSLine className="text-3xl text-gray-400" />
+          </LinkScroll>
         </div>
       </div>
     </section>

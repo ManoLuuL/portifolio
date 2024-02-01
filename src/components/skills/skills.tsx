@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 
 export const Skills = () => {
   return (
-    <section className={twMerge("xl:h-[760px] xl:py-24 mt-28")}>
+    <section className={twMerge("xl:h-[760px] xl:py-24 mt-28")} id="skills">
       <div className={twMerge("container mx-auto")}>
         <h2
           className={twMerge(

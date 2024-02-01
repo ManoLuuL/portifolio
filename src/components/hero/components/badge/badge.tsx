@@ -11,7 +11,7 @@ export const Badge = (props: BadgeProps) => {
   return (
     <div
       className={twMerge(
-        "z-10 w-[200px] bg-gray-300 dark:bg-gray-200 dark:backdrop-blur-[44px] shadow-2xl dark:shadow-gray-600 h-[68px] p-4 rounded-[10px] flex items-center gap-x-4 select-none",
+        "z-10 w-[200px] bg-gray-200 dark:bg-gray-200 dark:backdrop-blur-[44px] shadow-2xl dark:shadow-gray-600 h-[68px] p-4 rounded-[10px] flex items-center gap-x-4 select-none",
         containerClassName
       )}
     >
