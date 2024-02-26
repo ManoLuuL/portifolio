@@ -47,9 +47,14 @@ export const QUALIFICATION_DATA: QualificationDataParams[] = [
     title: "Experiencias",
     data: [
       {
+        company: "Harmonit",
+        qualification: "Desenvolvedor Front-End",
+        years: "Nov de 2023 - Presente",
+      },
+      {
         company: "FRG Gestão Inteligente",
         qualification: "Desenvolvedor Front-End",
-        years: "Mai de 2022 - Presente",
+        years: "Mai de 2022 - Nov de 2023",
       },
       {
         company: "FRG Gestão Inteligente",
