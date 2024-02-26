@@ -40,11 +40,11 @@ export const Hero = () => {
             </h1>
             <p className="text-lg mb-8 font-light max-w-[800px] mx-auto xl:mx-0">
               Programador Front-End em React e Next, em constante evolução.
-              Buscando se tornar Full Stack para abraçar desafios mais amplos.
-              Aqui você podera explorar e junte-se à jornada de inovação
-              digital, pois não é apenas um conjunto de projetos, mas uma
-              narrativa visual que reflete meu comprometimento com a excelência
-              e o constante aprimoramento.
+              Cursando Especialização(Pós-Graduação) em Full Stack para abraçar
+              desafios mais amplos. Aqui você podera explorar e junte-se à
+              jornada de inovação digital, pois não é apenas um conjunto de
+              projetos, mas uma narrativa visual que reflete meu comprometimento
+              com a excelência e o constante aprimoramento.
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-6">
               <Link href={"mailto:ticocouto_14@hotmail.com"}>
