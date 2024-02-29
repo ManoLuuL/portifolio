@@ -4,12 +4,14 @@ import {
   MiniRPG,
   ShopOnline,
   SistemaTask,
+  SnapChatClone,
   TemplateADM,
   TriagemVirtual,
 } from "@/assets";
 import {
   IconCSharp,
   IconJavaScript,
+  IconMongoDB,
   IconNextJS,
   IconPostgres,
   IconPython,
@@ -25,6 +27,13 @@ export const MY_PROJECTS: ProjectProps[] = [
     icons: [IconTypeScript(30), IconPostgres(30), IconPython(30)],
     link: "https://despensa-saudavel.vercel.app/",
     situation: "Concluido - 05/12/23",
+  },
+  {
+    title: "SnapChat Clone",
+    src: SnapChatClone,
+    icons: [IconTypeScript(30), IconNextJS(30), IconMongoDB(30)],
+    link: "https://github.com/ManoLuuL/snapchat-clone",
+    situation: "Concluido - 29/02/24",
   },
   {
     title: "Car ShowCase",

@@ -3,6 +3,7 @@ import {
   IconCSharp,
   IconHMTL,
   IconJavaScript,
+  IconMongoDB,
   IconMySQL,
   IconNextJS,
   IconPostgres,
@@ -65,6 +66,10 @@ export const SkillsDev: SkillItensProps[] = [
   {
     description: "Postgres",
     icon: IconPostgres(),
+  },
+  {
+    description: "Mongo",
+    icon: IconMongoDB(),
   },
   {
     description: "Python",
