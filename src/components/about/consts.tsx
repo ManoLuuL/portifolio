@@ -31,6 +31,11 @@ export const QUALIFICATION_DATA: QualificationDataParams[] = [
         qualification: "Bacharelado em Ciência da Computação",
         years: "2020 - 2023",
       },
+      {
+        university: "Unimar",
+        qualification: "Pós-graduação em Full Stack",
+        years: "2024 - 2025",
+      },
     ],
   },
   {
@@ -48,22 +53,22 @@ export const QUALIFICATION_DATA: QualificationDataParams[] = [
     data: [
       {
         company: "Harmonit",
-        qualification: "Desenvolvedor Front-End",
+        qualification: "React Developer",
         years: "Nov de 2023 - Presente",
       },
       {
         company: "FRG Gestão Inteligente",
-        qualification: "Desenvolvedor Front-End",
+        qualification: "React Developer",
         years: "Mai de 2022 - Nov de 2023",
       },
       {
         company: "FRG Gestão Inteligente",
-        qualification: "Desenvolvedor Front-End - Estágio",
+        qualification: "Desenvolvedor - Estágio",
         years: "Jan de 2022 - Abr de 2022",
       },
       {
         company: "FRG Gestão Inteligente",
-        qualification: "Suporte ao cliente - Estágio",
+        qualification: "Suporte ao Cliente - Estágio",
         years: "Abr de 2021 - Dez de 2021",
       },
       {
