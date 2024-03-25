@@ -1,5 +1,6 @@
 import CarShowCase from "./carshowcase.jpg";
 import DespensaSaudavel from "./despensasaudavel.png";
+import Kanban from "./kanban.jpg";
 import LogoMenu from "./logo.png";
 import MiniRPG from "./minirpg.png";
 import Profile from "./profile.jpeg";
@@ -20,4 +21,5 @@ export {
   CarShowCase,
   LogoMenu,
   SnapChatClone,
+  Kanban,
 };
